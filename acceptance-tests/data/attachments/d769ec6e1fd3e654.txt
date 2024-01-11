@@ -1,0 +1,40 @@
+[*] running method core_negotiate_tlv_encryption
+[*] Negotiating TLV encryption
+[*] RSA key: 30820122300d06092a864886f70d01010105000382010f003082010a0282010100b1e4c2391f676e10f44c95cb07411ea7a5d3a7eaf4eae6f2aca87a6c47e0111be10343018d763d1f209e9bfc09b4f099788d6c92bbd6ae096bd7f9403b5ad927decd8398c9c3ed9b28df152efb9493b62a7ee9fe32fa2810f8ddcedcf685d4cb2d5f2b2cb1b5f1e20e04e71686541e0537cab78a1dfe8b687aa87585817b12e9a99be55133de7e2117ebe23a08fd212c58dd30b1743add5249b608c2c20a4c0ce327610d412cf02c15a01580661211fa1f419e6fef8a79ead8376095d07648f3ee8ad17deeddaebf2016827982af683eca78291c40e43126eb2e9e9c2248fb5ba4090e57bb67e8f05f45d5f0ad8d9b65a9663359a0a81b79ed6d38bd7e61c7fd0203010001
+[*] AES key: 0x5e01a19fd59a89e216ac2fb5501a6cc30cc05424d2c2f33d859e7db2ea8d38d4
+[*] Encrypted AES key: 0xdc9173a0a2e8c42c2c5a97cbab7f9f287de293fe98368ff2c6b1ccd357fe511ed3417e5ec1af19a11d93f54f075e83fccfba4914f085a71b4b16896b0fced5fb18a6bfa61f0bbea3b39beb7e2530fcd6744ddf8e59bccc6dcdfaabf02742edc89455bbaaa41c6f32d2671aa1abdc4b9a1cca6d2ac5bb40669029a597cd6f4dcfb311c19e517bc5db9364a3d86d725b3694f4b0de8c36ff6f6adc9a6770f763aaf04e874c987f8374b9b8f66f428d326915b1f86ccb5fe6d93fedc86446385af2bafdd7bca1fb3b7e2146a96d57c845b414d0feab07b3121e8f585f3da86da59a5d6c7df664a59ec6f119840f2aafc67741b9dd1c3946f6c78de1b9cfd347d7d
+[*] TLV encryption sorted
+[*] sending response packet
+[*] running method core_set_session_guid
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] sending response packet
+[*] running method core_enumextcmd
+[*] sending response packet
+[*] running method core_loadlib
+[*] sending response packet
+[*] running method stdapi_fs_getwd
+[*] sending response packet
+[*] running method stdapi_sys_config_getuid
+[*] sending response packet
+[*] running method stdapi_sys_config_sysinfo
+[*] sending response packet
+[*] running method core_set_uuid
+[*] sending response packet
+[*] running method stdapi_net_config_get_interfaces
+[*] sending response packet
+[*] running method stdapi_net_config_get_routes
+[*] sending response packet
+[*] running method stdapi_fs_stat
+[*] sending response packet
+[*] running method core_channel_open
+[*] core_channel_open dispatching to handler: channel_open_stdapi_fs_file
+[*] added channel id: 1 type: MeterpreterFile
+[*] sending response packet
+[*] running method core_channel_read
+[*] sending response packet
+[*] running method core_channel_eof
+[*] sending response packet
+[*] running method core_channel_close
+[*] closed and removed channel id: 1
+[*] sending response packet
