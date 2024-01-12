@@ -33,7 +33,7 @@ RUN apk add --no-cache \
       go \
     && echo "gem: --no-document" > /etc/gemrc \
     && gem update --system \
-    && bundle config $BUNDLER_ARGS \
+    && bundle config $BUNDLER_CONFIG_ARGS \
     && bundle install --jobs=8 \
     # temp fix for https://github.com/bundler/bundler/issues/6680
     && rm -rf /usr/local/bundle/cache \
